@@ -375,6 +375,121 @@ nav li a{
     position: relative;
     left: 300px;
 }
+/* Deal-Discoution relsted style */
+.Deal-Discoution{
+    margin-top: 100px;
+}
+.board-1{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    left: 550px;
+    top: 56px;
+ }
+.board-2{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    left: 50px;
+    top: 56px;
+ }
+.board-3{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    left: 550px;
+    top: 56px;
+ }
+.banner-1{
+    width: 1170px;
+    height: 500px;
+    background-image: url(../Images/Group\ 39.png);
+}
+.banner-2{
+    width: 1170px;
+    height: 500px;
+    background-image: url(../Images/Group\ 39.png);
+}
+.banner-3{
+    width: 1170px;
+    height: 500px;
+    background-image: url(../Images/Group\ 39.png);
+}
+.board-title{
+    color: #131318;
+    font-size: 24px;
+    position: relative;
+    left: 50px;
+    top: 98px;
+}
+.board-para{
+    width: 452px;
+    color: #5A5A5D;
+    font-size: 16px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.price{
+    color: #FF5400;
+    font-size: 20px;
+    font-size: 24px;
+    position: relative;
+    left: 50px;
+    top:90px;
+
+}
+.price-box{
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    position: relative;
+    left: 50px;
+    top: 65px;
+}
+.banner-2{
+    margin-top: 25px;
+    background-image: url(../Images/Group\ 40.png);
+}
+.banner-3{
+    margin-top: 25px;
+    background-image: url(../Images/Group\ 39.png);
+}
+.See{
+    margin-top: 50px;
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    position: relative;
+    left: 500px;
+}
+.main{}
+.main{}
+.main{}
+.main{}
+.main{}
+.main{}
+.main{}
+.main{}
+.main{}
+.main{}
+.main{}
 
 /* section-5 related style */
 .section-5{
