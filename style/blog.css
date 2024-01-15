@@ -146,40 +146,257 @@ nav li a{
     font-size: 16px;
     border: none;
 }
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
+
+/* Section-2 related style */
+
+.section-2{
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+}
+.section-title{
+    color: #131318;
+    font-size: 40px;
+    margin: 0;
+}
+.section-2-ph{
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.list{
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    margin-top: 24px;
+}
+.li{
+    margin-top: 30px;
+}
+.ph-1{
+    width: 530px;
+    color: #5A5A5D;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.Box{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+.read{
+    margin-top: 50px;
+}
+.read-more{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;background-color: none;
+}
+.container-img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+/* Section-3 related style */
+
+.section-3{
+    margin-top: 100px;
+}
+.destination{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+}
+.destination-paragraph{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    bottom: 25px;
+    padding: 0px 20px 0 270px;
+}
+
+/* rectangle related style */
+.re-5{
+    width: 573px;
+    height: 300px;
+}
+.re-8{
+    width: 573px;
+    height: 300px;
+}
+.re-6{
+    width: 374px;
+    height: 286px;
+}
+.re-7{
+    width: 474px;
+    height: 286px;
+}
+.re-9{
+    width: 274px;
+    height: 286px;
+}
+.re-10{
+    width: 673px;
+    height: 300px;
+}
+.re-11{
+    width: 473px;
+    height: 300px;
+}
+.row-1{
+    display: flex;
+    gap: 24px;
+}
+.row-2{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.row-3{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.Maldives{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 830px;
+    left: 230px;
+}
+.Indonesia{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 890px;
+    left: 820px;
+}
+.Srilanka{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 640px;
+    left: 130px;
+}
+.North-America{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 705px;
+    left: 535px;
+}
+.Kashmir{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 765px;
+    left: 980px;
+}
+.Bangladesh{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 510px;
+    left: 155px;
+}
+.Bandarban{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 575px;
+    left: 745px;
+}
+
+/* Section-4 related style */
+.section-4{
+    margin-top: -400px;
+}
+.card{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.care-1-2{
+    display: flex;
+    gap: 24px;
+}
+.icon{
+    width: 64px;
+    height: 64px;
+    padding: 32px 0 0 32px;
+}
+.card-stats{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 32px 0 16px 32px;
+    position: relative;
+    bottom: 20px;
+}
+.card-title{
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 55px 0px 32px;
+    position: relative;
+    bottom: 25px;
+}
+.card-3{
+    margin-top: 24px;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+
+}
+.last-card{
+    position: relative;
+    left: 300px;
+}
+
+/* section-5 related style */
+.section-5{
+    display: flex;
+    margin-top: 120px;
+}
+.list-1{
+
+    margin-top: 30px;
+}
+.li-1{
+    width: 518px;
+    color: #131318;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.container-img-1{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
 .main{}
 .main{}
 .main{}
