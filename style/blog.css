@@ -479,18 +479,6 @@ nav li a{
     position: relative;
     left: 500px;
 }
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-
 /* section-5 related style */
 .section-5{
     display: flex;
@@ -606,6 +594,57 @@ nav li a{
     font-weight: 800;
     text-align: center;
 }
+.watch{
+    position: relative;
+    right: 430px;
+    top: 170px;
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+}
+.png-1{
+    /* background-color: #FF5400; */
+    position: relative;
+    top: 520px;
+    left: 425px;
+}
+.png-2{
+    /* background-color: #FF5400; */
+    position: relative;
+    top: 525px;
+    left: 360px;
+}
+.png-3{
+    /* background-color: #FF5400; */
+    position: relative;
+    top: 525px;
+    left: 860px;
+}
+.png-4{
+    /* background-color: #FF5400; */
+    position: relative;
+    top: 525px;
+    left: 800px;
+}
+.png-5{
+    /* background-color: #FF5400; */
+    position: relative;
+    top: 525px;
+    left: 740px;
+}
+.png-6{
+    /* background-color: #FF5400; */
+    position: relative;
+    top: 535px;
+    left: 240px;
+}
+
+.main{}
+.main{}
+.main{}
+.main{}
+.main{}
 
 /* Footer related style */
 .footer{
