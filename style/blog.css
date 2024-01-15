@@ -1,0 +1,63 @@
+/* font related style from google */
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;0,800;1,800&display=swap');
+
+  /* All Font family  */
+*{
+    font-family: 'Mulish', sans-serif;
+}
+/* Header related styl */
+header{
+    width: 1170px;
+    height: 0;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 500px;
+    font-size: 1rem;
+}
+nav li a{
+    color: #424242;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.img-nav{
+    width: 48px;
+    height: 56.008px;
+    margin-top: 25px;
+}
+.nav-title{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.Travel{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+.img-40071{
+    display: flex;
+    gap: 17px;
+}
+.home{
+    color: #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Main Related style */
+
+/* Section-1 Reladet style */
