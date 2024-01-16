@@ -197,11 +197,6 @@ nav li a{
     font-size: 20px;
     font-weight: 800;background-color: none;
 }
-.container-img{
-    width: 540px;
-    height: 550px;
-    border-radius: 16px;
-}
 
 /* Section-3 related style */
 
@@ -335,6 +330,20 @@ nav li a{
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
+.destination-1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+}
+.destination-paragraph-1{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    bottom: 25px;
+    padding: 0px 20px 0 270px;
+}
 .care-1-2{
     display: flex;
     gap: 24px;
@@ -420,11 +429,13 @@ nav li a{
 .banner-2{
     width: 1170px;
     height: 500px;
+    margin-top: 25px;
     background-image: url(../Images/Group\ 39.png);
 }
 .banner-3{
     width: 1170px;
     height: 500px;
+    margin-top: 25px;
     background-image: url(../Images/Group\ 39.png);
 }
 .board-title{
@@ -432,7 +443,7 @@ nav li a{
     font-size: 24px;
     position: relative;
     left: 50px;
-    top: 98px;
+    /* top: 98px; */
 }
 .board-para{
     width: 452px;
@@ -440,7 +451,7 @@ nav li a{
     font-size: 16px;
     position: relative;
     left: 50px;
-    top: 100px;
+    /* top: 100px; */
 }
 .price{
     color: #FF5400;
@@ -448,7 +459,7 @@ nav li a{
     font-size: 24px;
     position: relative;
     left: 50px;
-    top:90px;
+    /* top:90px; */
 
 }
 .price-box{
@@ -459,16 +470,9 @@ nav li a{
     border: none;
     position: relative;
     left: 50px;
-    top: 65px;
+    bottom: 30px;
 }
-.banner-2{
-    margin-top: 25px;
-    background-image: url(../Images/Group\ 40.png);
-}
-.banner-3{
-    margin-top: 25px;
-    background-image: url(../Images/Group\ 39.png);
-}
+
 .See{
     margin-top: 50px;
     width: 210px;
@@ -482,7 +486,7 @@ nav li a{
 /* section-5 related style */
 .section-5{
     display: flex;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .list-1{
 
@@ -634,17 +638,11 @@ nav li a{
     left: 740px;
 }
 .png-6{
-    /* background-color: #FF5400; */
+    background-color: #FF5400;
     position: relative;
     top: 535px;
     left: 240px;
 }
-
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
 
 /* Footer related style */
 .footer{
@@ -695,12 +693,261 @@ nav li a{
     font-size: 16px;
 }
 
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
-.main{}
+
+/* @media screen related style */
+/* responsive for movile*/
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 350px;
+    }
+    .section-1{
+    }
+    .banner{
+        width: 375px;
+        height: 483px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .explore {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+    .dolor {
+        width: 304px;
+        color: #FFF;
+        font-size: 14px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+    .button{
+        display: inline-flex;
+        width: 175px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        position: relative;
+        top: 50px;
+        left: 80px;
+    }
+    .section-2-ph{
+        width: 335px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .section-title {
+        font-size: 20px;
+    }
+    .list {
+        width: 335px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        margin-top: 24px;
+    }
+    .ph-1 {
+        width: 335px;
+        color: #5A5A5D;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .section-2{
+        display: block;
+        width: 375px;
+    }
+    .container-pic{
+        width: 315px;
+        /* height: 342px; */
+        flex-shrink: 0;
+        padding: 0;
+        position: relative;
+        right: px;
+        left: 59px;
+    }
+    .destination {
+        margin-bottom: 50px;
+        color: #131318;
+        font-size: 20px;
+    }
+    .destination-paragraph {
+        width: 375px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 14px;
+        position: relative;
+        bottom: 25px;
+        padding: 0px 0px 0 0px;
+    }
+    .re-5 {
+        width: 335px;
+        height: 176px;
+    }
+    .Maldives {
+        /* background-color: #FF5400; */
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 1255px;
+        left: 110px;
+    }
+    .Indonesia {
+        /* background-color: #FF5400; */
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 1110px;
+        left: 125px;
+    }
+    .Srilanka {
+        /* background-color: #FF5400; */
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 953px;
+        left: 125px;
+    }
+    .North-America {
+        /* background-color: #FF5400; */
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 815px;
+        left: 100px;
+    }
+    .Kashmir {
+        /* background-color: #FF5400; */
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 680px;
+        left: 130px;
+    }
+    .Bandarban {
+        /* background-color: #FF5400; */
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 397px;
+        left: 120px;
+    }
+    .Bangladesh {
+        /* background-color: #FF5400; */
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 532px;
+        left: 110px;
+    }
+    .row-1{
+        display: block;
+    }
+    .row-2{
+        display: block;
+    }
+    .row-3{
+        display: block;
+    }
+    .re-8 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .re-6 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .re-7 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .re-9 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .re-11 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .re-10 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .destination {
+        color: #131318;
+    font-size: 20px;
+    }
+    .destination-1 {
+        margin-top: 100px;
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+    }
+    .destination-paragraph-1 {
+        width: 309px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 14px;
+        position: relative;
+        bottom: 25px;
+        padding: 20px 0px 0px 15px;
+    }
+    .card {
+        width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    }
+    .icon {
+        width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    }
+    .card-stats {
+        color: #131318;
+        font-size: 20px;
+    }
+    .card-title {
+        width: 271px;
+        color: #5A5A5D;
+    }
+    .care-1-2{
+        display: block;
+    }
+    .card-3 {
+        width: 335px;
+        height: 289px;
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+        position: relative;
+        right: 300px;
+    }
+}
