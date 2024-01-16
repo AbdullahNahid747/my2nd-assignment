@@ -73,6 +73,7 @@ nav li a{
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     height: 500px;
     border-radius: 16px;
+    
 }
 .backround-image-1{}
 .explore{
@@ -215,7 +216,7 @@ nav li a{
     font-size: 16px;
     position: relative;
     bottom: 25px;
-    padding: 0px 20px 0 270px;
+    left: 250px;
 }
 
 /* rectangle related style */
@@ -716,19 +717,39 @@ nav li a{
     color: #131318;
     font-size: 16px;
 }
-
+/* Sponser related style */
+.section-title-1{
+    text-align: center;
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-top: 180px;
+}
+.teams-paragraph-1{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 24px;
+}
+.las-step{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
 
 /* @media screen related style */
 /* responsive for movile*/
 
 @media screen and (max-width: 600px) {
     body{
-        width: 350px;
+        width: 375px;
     }
     .section-1{
     }
     .banner{
-        width: 375px;
+        width: 335px;
         height: 483px;
     }
     nav {
@@ -737,6 +758,10 @@ nav li a{
         align-items: center;
         margin-top: 50px;
         flex-direction: column;
+    }
+    .ul{
+        width: 335px;
+        display: block;
     }
     .explore {
         color: #FFF;
@@ -754,7 +779,7 @@ nav li a{
         font-size: 14px;
         position: relative;
         top: 50px;
-        left: 50px;
+        left: 20px;
     }
     .button{
         display: inline-flex;
@@ -783,6 +808,13 @@ nav li a{
         font-size: 14px;
         margin-top: 24px;
     }
+    .Box {
+        width: 174px;
+        height: 52px;
+        position: relative;
+        bottom: 0px;
+        top: 0px;
+    }
     .ph-1 {
         width: 335px;
         color: #5A5A5D;
@@ -791,7 +823,9 @@ nav li a{
     }
     .section-2{
         display: block;
-        width: 375px;
+        width: 335px;
+    }
+    .container{
     }
     .container-pic{
         width: 315px;
@@ -808,13 +842,13 @@ nav li a{
         font-size: 20px;
     }
     .destination-paragraph {
-        width: 375px;
+        width: 335px;
         color: rgba(19, 19, 24, 0.70);
         text-align: center;
         font-size: 14px;
         position: relative;
         bottom: 25px;
-        padding: 0px 0px 0 0px;
+        left: 0px;
     }
     .re-5 {
         width: 335px;
@@ -1121,7 +1155,7 @@ nav li a{
         height: 52px;
         position: relative;
         left: 100px;
-        bottom: 50px;
+        bottom: 70px;
     }
     .list-1{
         width: 335px;
@@ -1225,6 +1259,12 @@ background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%
     }
     .footer{
         margin-top: -300px;
+        width: 335px;
+        height: 309px;
+    }
+    .footer-containar{
+
+
     }
     .TS-Travel {
         color: #131318;
@@ -1253,10 +1293,20 @@ background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%
     .ooo{
         width: 335px;
         height: 342px;
-        flex-shrink: 0;
-        
+        position: relative;
+        top: 50px;
     }
-    hr {
-       
+    .section-7{
+        position: relative;
+        bottom: 400px;
+    }
+    .las-step{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .hover{
+        width: 335px;
+        padding: 0 0 0 0;
     }
 }
