@@ -388,6 +388,20 @@ nav li a{
 .Deal-Discoution{
     margin-top: 100px;
 }
+.destination-2{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+}
+.destination-paragraph-2{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    bottom: 25px;
+    padding: 0px 20px 0 270px;
+}
 .board-1{
     width: 579px;
     height: 389px;
@@ -488,14 +502,24 @@ nav li a{
     display: flex;
     margin-top: 100px;
 }
+.a-simple{
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+}
+.a-simple-p{
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+}
 .list-1{
-
+    color: #131318;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
     margin-top: 30px;
 }
 .li-1{
-    width: 518px;
-    color: #131318;
-    font-size: 16px;
     margin-top: 30px;
 }
 .container-img-1{
@@ -949,5 +973,290 @@ nav li a{
         background: rgba(233, 68, 68, 0.05);
         position: relative;
         right: 300px;
+    }
+    .destination-2{
+        color: #131318;
+        font-size: 20px;
+        position: relative;
+        bottom: 60px;
+    }
+    .destination-paragraph-2{
+        width: 309px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 14px;
+        position: relative;
+        bottom: 85px;
+        padding: 20px 0px 0px 15px;
+    }
+    .banner-1 {
+        width: 335px;
+        height: 500px;border-radius: 16px;
+    }
+    .banner-2 {
+        width: 335px;
+        height: 500px;border-radius: 16px;
+    }
+    .banner-3 {
+        width: 335px;
+        height: 500px;border-radius: 16px;
+    }
+    .board-1 {
+        width: 303px;
+        height: 297px;border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        position: relative;
+        left: 15px;
+        top: 190px;
+    }
+    .board-2 {
+        width: 303px;
+        height: 297px;border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        position: relative;
+        left: 15px;
+        top: 190px;
+    }
+    .board-3 {
+        width: 303px;
+        height: 297px;border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        position: relative;
+        left: 15px;
+        top: 190px;
+    }
+    /*  */
+
+    .board-title {
+        color: #131318;
+        font-size: 20px;
+        position: relative;
+        left: 24px;
+        bottom: 130px;
+    }
+    .board-para {
+        width: 254px;
+        color: #5A5A5D;
+        font-size: 14px;
+        position: relative;
+        left: 24px;
+        bottom: 140px;
+    }
+    .price{
+        color: #FF5400;
+        font-size: 13px;
+         width: 130px;
+        position: relative;
+        left: 24px;
+        bottom: 145px;
+    }
+    .price-box {
+        width: 130px;
+        height: 40px;
+        position: relative;
+        left: 24px;
+        bottom: 185px;
+    }
+    .new-1{
+        display: block;
+    }
+    .frame-1{
+        position: relative;
+        left: -80px;
+        bottom: 40px;
+    }
+    .frame-2{
+        position: relative;
+        left: -80px;
+        bottom: 40px;
+    }
+    .frame-3{
+        position: relative;
+        left: 40px;
+        bottom: 90px;
+    }
+    .span-1{
+        position: relative;
+        left: -40px;
+        bottom: 65px;
+    }
+    .span-2{
+        position: relative;
+        left: -40px;
+        bottom: 65px;
+    }
+    .span-3{
+        position: relative;
+        left: 70px;
+        bottom: 115px;
+    }
+    .section-5{
+        width: 375px;
+        display: block;
+    }
+    .a-simple {
+        width: 248px;
+        color: #131318;
+        font-size: 20px;
+        position: relative;
+        bottom: 150px;
+        /* left: 60px; */
+    }
+    .a-simple-p{
+        width: 335px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        position: relative;
+        bottom: 150px;
+        /* left: 50px; */
+    }
+    .See {
+        width: 174px;
+        height: 52px;
+        position: relative;
+        left: 100px;
+        bottom: 50px;
+    }
+    .list-1{
+        width: 335px;
+        color: #131318;
+        font-size: 14px;
+        position: relative;
+        left: -20px;
+        bottom: 150px;
+    }
+    .Box {
+        width: 174px;
+        height: 52px;
+        position: relative;
+        bottom: 180px;
+    }
+    .container-img-1 {
+        width: 335px;
+        height: 200px;
+        border-radius: 16px;
+        position: relative;
+        bottom: 150px;
+    }
+    /*  */
+    .im-2200{
+        width: 335px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 16px;
+background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    }
+    .section-6{
+        margin-top: 200px;
+        display: block;
+    }
+    .container-newsletter {
+        width: 335px;
+        position: relative;
+        bottom: 400px;
+        right: 30oxpx;
+        background: #FFF;
+    }
+    .section-title-Newsletter {
+        color: #131318;
+        font-size: 20px;
+    }
+    .section-2-ph-2 {
+        width: 270px;
+        color: #5A5A5D;
+        font-size: 14px;
+    }
+    .you-name {
+        width: 288px;
+        height: 52px;
+        border-radius: 8px;
+        position: relative;
+        left: 50px;
+    }
+    .Subscribe-Box {
+        width: 288px;
+        height: 52px;
+        border-radius: 8px;
+    }
+    .container-img-2 {
+        width: 335px;
+        height: 300px;
+        border-radius: 16px;
+        position: relative;
+        bottom: 350px;
+    }
+    .ir{
+        width: 335px;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+    .ten-years-batch {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        border-radius: 10.569px;
+        position: relative;
+        left: 115px;
+        bottom: 130px;
+    }
+    .Travel-com {
+        color: #FFF;
+        font-size: 15.854px;
+        font-style: normal;
+    }
+    .Save-up-to-70 {
+        color: #FFF;
+        font-size: 21.138px;
+    }
+    .img-footer {
+        width: 28.724px;
+        height: 33.516px;
+        position: relative;
+        left: 90px;
+        top: 50px;
+    }
+    .footer{
+        margin-top: -300px;
+    }
+    .TS-Travel {
+        color: #131318;
+        font-size: 21.543px;
+        font-weight: 800;position: relative;
+        bottom: 100px;
+    }
+    .Travel-span {
+        color: #FF5400;
+        font-size: 21.543px;
+    }
+    .last-p {
+        width: 287px;
+        color: #5A5A5D;
+        font-size: 14px;
+        padding: 0px 20px;
+        position: relative;
+        bottom: 100px;
+    }
+    .social-links {
+        margin-top: 35px;
+        display: flex;
+        gap: 10px;
+        padding: 0 0 0 30px;
+    }
+    .ooo{
+        width: 335px;
+        height: 342px;
+        flex-shrink: 0;
+        
+    }
+    hr {
+       
     }
 }
